@@ -19,6 +19,24 @@ final class DocumentController extends Controller
         ]);
     }
 
+    public function extract(array $query): void
+    {
+        $this->render('documents/extract', [
+            'title' => 'Saisie orientee source',
+            'scanPath' => $query['scan'] ?? '/assets/sample-acte.svg',
+        ]);
+    }
+
+    public function storeExtraction(array $query): void
+    {
+        $this->json([
+            'status' => 'received',
+            'document' => $_POST['document'] ?? [],
+            'evenement' => $_POST['evenement'] ?? [],
+            'assertions_count' => count($_POST['assertions'] ?? []),
+        ], 202);
+    }
+
     public function apiIndex(array $query): void
     {
         $documents = (new Document())->latest();

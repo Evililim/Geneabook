@@ -6,5 +6,8 @@
 </head>
 <body>
     <h1>Geneabook</h1>
+    <nav>
+        <a href="/index.php?action=documents.extract">Saisie orientee source</a>
+    </nav>
 </body>
 </html>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1200" viewBox="0 0 900 1200" role="img" aria-labelledby="title desc">
+  <title id="title">Exemple de scan d'acte</title>
+  <desc id="desc">Document factice utilise comme image de demonstration dans la visionneuse.</desc>
+  <rect width="900" height="1200" fill="#fbf4e5"/>
+  <rect x="58" y="54" width="784" height="1092" fill="none" stroke="#9b876b" stroke-width="4"/>
+  <text x="450" y="128" text-anchor="middle" font-family="Georgia, serif" font-size="42" fill="#3f3529">Registre d'etat civil</text>
+  <text x="450" y="178" text-anchor="middle" font-family="Georgia, serif" font-size="28" fill="#5c4e3d">Acte de naissance - exemple</text>
+  <g fill="#5b5145" font-family="Georgia, serif" font-size="24">
+    <text x="110" y="270">L'an mil huit cent vingt et un, le quinze mars,</text>
+    <text x="110" y="320">a comparu Jean Martin, cultivateur, age de trente-deux ans,</text>
+    <text x="110" y="370">lequel nous a presente un enfant du sexe masculin,</text>
+    <text x="110" y="420">ne ce jour de Marie Bernard, son epouse.</text>
+    <text x="110" y="520">Ont ete temoins Pierre Dubois et Louis Moreau,</text>
+    <text x="110" y="570">domicilies en cette commune.</text>
+  </g>
+  <g stroke="#8a7964" stroke-width="2">
+    <line x1="110" y1="690" x2="790" y2="690"/>
+    <line x1="110" y1="760" x2="790" y2="760"/>
+    <line x1="110" y1="830" x2="790" y2="830"/>
+    <line x1="110" y1="900" x2="790" y2="900"/>
+  </g>
+  <text x="680" y="1015" font-family="Georgia, serif" font-size="26" fill="#4e4437">Signatures</text>
+  <path d="M610 1060 C650 1020, 690 1100, 735 1050 S810 1068, 790 1032" fill="none" stroke="#3f3529" stroke-width="5"/>
+</svg>

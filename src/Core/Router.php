@@ -17,6 +17,8 @@ final class Router
     private array $routes = [
         'home' => ['class' => HomeController::class, 'method' => 'index', 'format' => 'html'],
         'documents.index' => ['class' => DocumentController::class, 'method' => 'index', 'format' => 'html'],
+        'documents.extract' => ['class' => DocumentController::class, 'method' => 'extract', 'format' => 'html'],
+        'documents.storeExtraction' => ['class' => DocumentController::class, 'method' => 'storeExtraction', 'format' => 'json'],
         'documents.api.index' => ['class' => DocumentController::class, 'method' => 'apiIndex', 'format' => 'json'],
         'individus.show' => ['class' => IndividuController::class, 'method' => 'show', 'format' => 'html'],
         'individus.api.show' => ['class' => IndividuController::class, 'method' => 'apiShow', 'format' => 'json'],
